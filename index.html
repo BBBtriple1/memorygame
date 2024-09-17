@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Memory Spel</title>
+    <title>Memory Game</title>
     <style>
         /* CSS code komt hier */
         html, body {
@@ -162,7 +162,7 @@ function disableCards() {
     secondCard.removeEventListener('click', flipCard);
     matches += 1;
     if (matches === symbols.length) {
-        setTimeout(() => alert('Gefeliciteerd! Je hebt alle paren gevonden!'), 500);
+        setTimeout(() => alert('Congratulations! You have found all the pairs!'), 500);
     }
     resetBoard();
 }
